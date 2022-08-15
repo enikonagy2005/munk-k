@@ -1,0 +1,43 @@
+#1. feladat: Kérd be egy felhasználótól, hogy az úszómedencéje hány cm mély. Ha 150-nél nagyobb, írd ki neki: 
+#"A medencéd ... cm mély, tehát mély víz!". Ha kisebb, akkor a következőt: "A medencéd ... cm mély, tehát nem mély víz.". 
+#Ha pont 150 cm, Akkor azt a választ kapja, hogy "A medencéd éppen 150 cm mély."
+
+medence=int(input("Add meg a medencéd mélységét:"))
+if medence>150:
+    print("A medencéd", medence, "cm mély, tehát mély víz!")
+if medence<150:
+    print("A medencéd" ,medence, "cm mély, tehát nem mély víz.")
+else:
+    medence=150
+    print("a", medence, "éppen 150 cm mély")
+
+
+ #feladat: Kérje be a program egy osztály diákjainak életkorát addig, amíg az életkornak 0-t nem adunk meg. 
+ #Minden diákról döntsd el egy függvény segítségével, hogy nagykorú-e. A függvény paraméterként az életkort kapja meg, visszatérési értéke pedig logikai érték legyen. 
+ #Ez alapján legyen a kiírás: "Nagykorú." vagy "Nem nagykorú."
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#3. feladat: A forrásfájl egy közúti ellenőrzésen áthaladó gépjárművek rendszámát és az időpontokat tartalmazza. Olvasd be a jarmu.txt
+#állományt és mentsd el egy megfelelő adatszerkezetben.  A szöveges állományban lévő első fejléc sort hagyd figyelmen kívül vagy ugord át.  
+#Állapítsd meg és írasd ki, hogy összesen hány jármű adata van a szöveges fájlban
+
+
+
+
