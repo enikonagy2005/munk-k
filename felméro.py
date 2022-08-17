@@ -63,7 +63,7 @@ file.readline()
 szerepele = False
 for sor in file:
     Rendszam=Gepjarmu(sor.strip())
-    if("Q" in Rendszam.rendszam):
+    if Rendszam.rendszam[1]=='Q':
          szerepele = True
 if (szerepele):
      print("Van a listában Q nevű rendszám.")  
